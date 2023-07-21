@@ -1,0 +1,26 @@
+body{background-color: aqua;
+  }
+#p2 {
+    color: red;
+    border: 1px solid black;
+  }
+
+#p1 {
+    color: rgb(151, 230, 127);
+    border: 3px solid black;
+  }
+
+/* #p3 {
+    color: rgb(28, 165, 73);
+    border: 6px solid black;
+  }
+
+div {
+    color: rgb(28, 165, 73);
+    border: 6px solid black;
+  } */
+
+div.zahra {
+    color: rgb(126, 28, 165);
+    border: 6px solid black;
+}

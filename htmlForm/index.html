@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+<style >
+ body {
+    background-color: bisque;
+ }
+ /* # {
+
+ } */
+</style>
+</head>
+<body>
+ <!-- <form action="/action_page.php" target="_blank"k  method="post"> -->
+ <form action="/action_page.php" target="_self" method="post">
+
+ <label  for="firstname">نام</label><br>
+ <input type="text" id="firstname" name="firstname" ><br>
+
+ <label for="lastname">نام خانوادگی</label><br>
+ <input type="text" id="lastname" name="lastname"><br>
+
+ <label for="bdaymonth">تاریخ تولد:</label><br>
+  <input type="month" id="bdaymonth" name="bdaymonth"><br>
+
+ <label for="">محل سکونت</label><br>
+ <input type="text" id="" name=""><br><br>
+
+ <fieldset>
+ <legend>مشخصات:</legend>
+ <label  for="firstname">نام</label><br>
+ <input type="text" id="firstname" name="firstname" ><br>
+
+ <label for="lastname">نام خانوادگی</label><br>
+ <input type="text" id="lastname" name="lastname"><br>
+
+ <label for="">محل سکونت</label><br>
+ <input type="text" id="" name="">
+</fieldset><br><br>
+
+ جنسیت
+ <br>
+ <label for="">زن</label>
+ <input type="radio" id="" name="gender">
+ <label for="">مرد</label>
+ <input type="radio" id="" name="gender"><br><br>
+
+تحصیلات
+<br>
+ <label for="">کارشناسی ارشد مهندسی فناوری اطلاعات</label>
+ <input type="checkbox" id="" name="">
+ <label for="">کارشناسی مهندسی کامپیتر</label>
+ <input type="checkbox" id="" name=""><br>
+ <label for="">کارشناسی مهندسی نرم افزار</label>
+ <input type="checkbox" id="" name="">
+ <label for="">کارشناسی مهندسی سخت افزار</label>
+ <input type="checkbox" id="" name=""><br><br>
+
+ <input type="submit" value="Submit">
+</form><br><br>
+
+<label for="cars">انتخاب ماشین:</label>
+  <select id="cars" name="cars">
+    <option value="رانا">رانا</option>
+    <option value="رانا پلاس">رانا پلاس</option>
+    <option value="دنا">دنا</option>
+    <option value="دنا پلاس">دنا پلاس</option>
+  </select><br><br>
+
+  <!-- <label for="cars">انتخاب ماشین:</label>
+  <select id="cars" name="cars">
+    <option value="رانا">رانا</option>
+    <option value="رانا پلاس">رانا پلاس</option>
+    <option value="دنا">دنا</option>
+    <option value="دنا پلاس" selected>دنا پلاس</option>
+  </select> -->
+
+ <form action="/action_page.php" target="_blank">
+  <label for="cars">انتخاب ماشین:</label>
+  <select id="cars" name="cars" size="4" multiple>
+    <option value="رانا">رانا</option>
+    <option value="رانا پلاس">رانا پلاس</option>
+    <option value="دنا">دنا</option>
+    <option value="دنا پلاس">دنا پلاس</option>
+    <option value="دیگنیتی">دیگنیتی</option>
+    <option value="سانتافه">سانتافه</option>
+    <option value="تارا" selected>تارا</option>
+  </select>
+  <input type="submit">
+</form><br><br>
+
+<textarea name="message" style="width:500px; height:100px;">ماشین خوب زندگی خوب</textarea>
+  <br>
+  <input type="button" value="ماشین خوب"><br><br>
+
+کدام یک از مروگرهای زیر را انتخاب میکنید؟<br>
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="اینترنت اکسپلور">
+        <option value="فایرفاکس">
+        <option value="کروم">
+        <option value="اوپرا">
+        <option value="سافاری">
+   </datalist><br><br><br>
+</body>
+</html>

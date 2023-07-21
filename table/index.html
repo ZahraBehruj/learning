@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/* th,td{padding: 10px; */
+  th, td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+body{background-color: rgb(178, 236, 236);
+}
+</style>
+</head>
+<body>
+
+<h2>Table Headers</h2>
+
+<p>آموزش</p>
+
+<table style="width:100%">
+  <colgroup>
+    <!-- <col span="2" style="background-color: rgb(175, 151, 197);"> -->
+    <!-- <col span="3" style="background-color: blanchedalmond;"> -->
+    <col span="3">
+    <col span="2" style="background-color: pink">
+  </colgroup>
+  <tr>
+    <th>نام</th>
+    <th>خانوادگی</th>
+    <th>سن</th>
+    <th>شماره تلفن</th>
+  </tr>
+  <tr>
+    <td rowspan="2">زهرا</td>
+    <td>بهروج</td>
+    <td rowspan="2">23</td>
+    <td>09302619524</td>
+  </tr>
+  <tr>
+    <td>رخشانی</td>
+    <td>09911253812</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="2">رامین </td>
+    <td rowspan="2">رخشانی</td>
+    <td rowspan="2">33</td>
+    <td>09903131629</td>
+  </tr>
+  <tr>
+    <td>09903131629</td>
+  </tr>
+</table>
+
+</body>
+</html>
+

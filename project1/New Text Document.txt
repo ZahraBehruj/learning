@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The style Attribute</h2>
+<p>The style attribute is used to add styles to an element, such as color:</p>
+<img src="IMG-20221104-WA0012.jpg" width="500" height="600">
+<p style="color:pink;">This is a pink paragraph.</p>
+
+</body>
+</html>
+
