@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<p>JavaScript changes the value of the src (source) attribute of an image.</p>
+<button type="button"
+onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn on the light</button>
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button><br><br>
+
+<p id="demo1">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.display='none'">Click Me!</button><br><br>
+
+<p id="demo2" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='block'">Click Me!</button>
+</body>
+</html> 
